@@ -10,7 +10,7 @@ mp.dps = PRECISION
 kappa_cache = {}
 
 def kappa(q):
-    """
+    r"""
     Returns the basis element κ_q defined by
       κ_1 = 1,
       κ_q = \overline{\mathcal{K}}_q - 1   for q >= 2,
